@@ -15,5 +15,5 @@
 
 <h3>Dependencies</h3>
 
-The lib folder will have the external JAR dependencies except of the corenlp-model-3.8.0 JAR file (as it is a large file). The download link:
+The lib folder will have the external JAR dependencies except the corenlp-model-3.8.0 JAR file (as it is a large file). The download link:
 [CoreNLP](https://stanfordnlp.github.io/CoreNLP/history.html)

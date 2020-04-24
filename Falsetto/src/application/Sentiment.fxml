@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="852.0" prefWidth="1156.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SentimentController">
+   <children>
+      <TableView fx:id="tblDetails" layoutX="15.0" layoutY="13.0" prefHeight="730.0" prefWidth="1123.0">
+        <columns>
+          <TableColumn fx:id="tblFname" prefWidth="131.0" text="First Name" />
+          <TableColumn fx:id="tblLname" prefWidth="150.0" text="Last Name" />
+            <TableColumn fx:id="tblFeed" prefWidth="697.0" text="Feed Back" />
+            <TableColumn fx:id="tblType" prefWidth="144.0" text="Type" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnLoad" layoutX="577.0" layoutY="773.0" mnemonicParsing="false" onAction="#onShow" text="Display" />
+   </children>
+</AnchorPane>

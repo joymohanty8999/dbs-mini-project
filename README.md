@@ -11,7 +11,8 @@
 <h3>How to Run</h3>
 
 1. Run the sql files to create the Databases in Oracle 11g XE.
-2. Run the applications via run option in the Eclipse IDE
+2. Add the external JAR files to build path
+3. Run the applications from the Main methods in the Eclipse IDE
 
 <h3>Dependencies</h3>
 

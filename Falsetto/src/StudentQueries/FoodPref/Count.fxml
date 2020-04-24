@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="178.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentQueries.FoodPref.CountController">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="51.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students with Vegetarian preferences:" wrappingWidth="343.6708984375">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students with Non-Vegetarian preferences:" wrappingWidth="379.205078125">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="VegCount" layoutX="430.0" layoutY="26.0" prefHeight="31.0" prefWidth="33.0" />
+      <TextField fx:id="NonVegCount" layoutX="430.0" layoutY="76.0" prefHeight="31.0" prefWidth="33.0" />
+      <Button fx:id="CountLoad" layoutX="51.0" layoutY="120.0" mnemonicParsing="false" onAction="#onShow" text="Display Count" />
+      <Button fx:id="VegList" layoutX="499.0" layoutY="26.0" mnemonicParsing="false" onAction="#onVegNext" prefHeight="31.0" prefWidth="200.0" text="Display List of Students" />
+      <Button fx:id="NonVegList" layoutX="499.0" layoutY="74.0" mnemonicParsing="false" onAction="#onNonVegNext" prefHeight="31.0" prefWidth="200.0" text="Display List of Students" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="631.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentQueries.FoodPref.NonVegListController">
+   <children>
+      <TableView fx:id="tblDetails" layoutX="69.0" layoutY="35.0" prefHeight="501.0" prefWidth="575.0">
+        <columns>
+          <TableColumn fx:id="tblFName" prefWidth="166.0" text="First Name" />
+          <TableColumn fx:id="tblLName" prefWidth="184.0" text="Last Name" />
+            <TableColumn fx:id="tblAllergy" prefWidth="224.0" text="Allergic To" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnLoad" layoutX="324.0" layoutY="559.0" mnemonicParsing="false" onAction="#onShow" text="Display" />
+   </children>
+</AnchorPane>

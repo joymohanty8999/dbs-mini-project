@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="653.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentQueries.Payment.PaymentController">
+   <children>
+      <TableView fx:id="tblDetails" layoutX="90.0" layoutY="50.0" prefHeight="515.0" prefWidth="619.0">
+        <columns>
+          <TableColumn fx:id="tblRegNo" prefWidth="157.0" text="Registration Number" />
+          <TableColumn fx:id="tblFName" prefWidth="162.0" text="First Name" />
+            <TableColumn fx:id="tblLName" prefWidth="154.0" text="Last Name" />
+            <TableColumn fx:id="tblPending" prefWidth="145.0" text="Amount Pending" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnLoad" layoutX="367.0" layoutY="593.0" mnemonicParsing="false" onAction="#onShow" text="Display" />
+   </children>
+</AnchorPane>
